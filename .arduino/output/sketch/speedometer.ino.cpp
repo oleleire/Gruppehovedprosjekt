@@ -1,9 +1,8 @@
 #include <Arduino.h>
 #line 1 "/Users/oleleire/Documents/ESI/Prosjektfag/Prosjekter /Gruppehovedprosjekt/speedometer/speedometer.ino"
-Ollo
-ollo0462
 
-Ev1 — Today at 1:08 PM
+
+
 #include <Zumo32U4.h>
 #include <Wire.h>
 
@@ -22,19 +21,19 @@ float rotationsPerSecond = 0;
 float cmPerSecond = 0;
 float distanceTraveled = 0;
 
-#line 23 "/Users/oleleire/Documents/ESI/Prosjektfag/Prosjekter /Gruppehovedprosjekt/speedometer/speedometer.ino"
+#line 22 "/Users/oleleire/Documents/ESI/Prosjektfag/Prosjekter /Gruppehovedprosjekt/speedometer/speedometer.ino"
 float calculateRotation();
-#line 29 "/Users/oleleire/Documents/ESI/Prosjektfag/Prosjekter /Gruppehovedprosjekt/speedometer/speedometer.ino"
+#line 28 "/Users/oleleire/Documents/ESI/Prosjektfag/Prosjekter /Gruppehovedprosjekt/speedometer/speedometer.ino"
 float calculateRotationPerSecond();
-#line 34 "/Users/oleleire/Documents/ESI/Prosjektfag/Prosjekter /Gruppehovedprosjekt/speedometer/speedometer.ino"
+#line 33 "/Users/oleleire/Documents/ESI/Prosjektfag/Prosjekter /Gruppehovedprosjekt/speedometer/speedometer.ino"
 float calculateCmPerSecond();
-#line 39 "/Users/oleleire/Documents/ESI/Prosjektfag/Prosjekter /Gruppehovedprosjekt/speedometer/speedometer.ino"
+#line 38 "/Users/oleleire/Documents/ESI/Prosjektfag/Prosjekter /Gruppehovedprosjekt/speedometer/speedometer.ino"
 float calculateDistanceTraveled();
-#line 44 "/Users/oleleire/Documents/ESI/Prosjektfag/Prosjekter /Gruppehovedprosjekt/speedometer/speedometer.ino"
+#line 43 "/Users/oleleire/Documents/ESI/Prosjektfag/Prosjekter /Gruppehovedprosjekt/speedometer/speedometer.ino"
 void setup();
-#line 49 "/Users/oleleire/Documents/ESI/Prosjektfag/Prosjekter /Gruppehovedprosjekt/speedometer/speedometer.ino"
+#line 48 "/Users/oleleire/Documents/ESI/Prosjektfag/Prosjekter /Gruppehovedprosjekt/speedometer/speedometer.ino"
 void loop();
-#line 23 "/Users/oleleire/Documents/ESI/Prosjektfag/Prosjekter /Gruppehovedprosjekt/speedometer/speedometer.ino"
+#line 22 "/Users/oleleire/Documents/ESI/Prosjektfag/Prosjekter /Gruppehovedprosjekt/speedometer/speedometer.ino"
 float calculateRotation()
 {
     float rotationCounter = leftEncoderCount / countPerRotation;
@@ -79,7 +78,4 @@ void loop()
     cmPerSecond = calculateCmPerSecond();
     distanceTraveled = calculateDistanceTraveled();
 }
-Ollo — Today at 1:08 PM
-﻿
-Ev1
-Ev1#0630
+

@@ -1,10 +1,9 @@
 # 1 "/Users/oleleire/Documents/ESI/Prosjektfag/Prosjekter /Gruppehovedprosjekt/speedometer/speedometer.ino"
-Ollo
-ollo0462
 
-Ev1 — Today at 1:08 PM
+
+
+# 5 "/Users/oleleire/Documents/ESI/Prosjektfag/Prosjekter /Gruppehovedprosjekt/speedometer/speedometer.ino" 2
 # 6 "/Users/oleleire/Documents/ESI/Prosjektfag/Prosjekter /Gruppehovedprosjekt/speedometer/speedometer.ino" 2
-# 7 "/Users/oleleire/Documents/ESI/Prosjektfag/Prosjekter /Gruppehovedprosjekt/speedometer/speedometer.ino" 2
 
 Zumo32U4Encoders encoder;
 Zumo32U4Motors motors;
@@ -65,7 +64,3 @@ void loop()
     cmPerSecond = calculateCmPerSecond();
     distanceTraveled = calculateDistanceTraveled();
 }
-Ollo — Today at 1:08 PM
-﻿
-Ev1
-Ev1#0630
